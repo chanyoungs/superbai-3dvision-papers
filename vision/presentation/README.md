@@ -1,0 +1,1 @@
+# [Online viewer](https://view.officeapps.live.com/op/view.aspx?src=https://raw.githubusercontent.com/chanyoungs/superbai-3dvision-papers/main/vision/presentation/vision_foundation_models_review.pptx)
