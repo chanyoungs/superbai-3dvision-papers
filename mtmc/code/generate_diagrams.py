@@ -91,7 +91,7 @@ def rounded_box(
     ax.text(
         x + w / 2,
         y + h / 2,
-        text,
+        text
         ha=ha,
         va=va,
         fontsize=fontsize,
