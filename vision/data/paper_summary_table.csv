@@ -1,0 +1,4 @@
+Paper,Short summary,Key signal
+Depth Anything 3,Plain transformer backbone for any-view geometry using a minimal depth + ray target.,Strong pose and geometry gains over VGGT in the paper's benchmark.
+MoGe-2,Monocular geometry model that decouples relative geometry from global metric scale and sharpens real-data supervision.,Strong metric scale and detail balance for single-image settings.
+VGGT,Large feed-forward transformer that predicts multiple 3D outputs from one to hundreds of views.,"Most complete shared 3D feature story across cameras, depth, points, and tracks."

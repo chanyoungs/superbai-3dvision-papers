@@ -1,0 +1,4 @@
+model,idf1,mota,note
+ReST,85.7,81.6,Online graph model; WildTrack Table 1
+MCBLT†,95.6,92.6,Uses same detections as EarlyBird; WildTrack Table 3
+UMPN,96.3,93.9,Full model on WILDTRACK; Table 6

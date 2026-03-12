@@ -1,0 +1,6 @@
+paper,role,fusion_point,association_core,key_reported_result,main_takeaway,citation_key
+ReST,direct MTMC,late 2D; current frame first,2-stage GNN + graph reconfiguration,85.7 IDF1 / 81.6 MOTA on WildTrack,lightweight online baseline,cheng2023rest
+MCBLT,direct MTMC,early BEV / 3D,BEVFormer + hierarchical GNN + global block,81.22 HOTA on AICity; 95.6 IDF1 on WildTrack†,best long-term + 3D reasoning,wang2025mcblt
+UMPN,direct MTMC,late dynamic graph,view + temporal + context edges (+ scene priors),96.3 IDF1 / 93.9 MOTA on WildTrack,unified single & multi-view,engilberge2025onegraph
+CAMELTrack,association lesson,cue-level,temporal encoders + GAFFE,69.3 HOTA on DanceTrack; 80.4 HOTA on SportsMOT,"learn cue fusion, not static costs",somers2025cameltrack
+MOTIP,association lesson,ID-context,transformer ID decoder,72.0 HOTA on DanceTrack; 72.6 HOTA on SportsMOT,association as ID prediction,gao2024motip

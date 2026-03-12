@@ -1,0 +1,6 @@
+Capability,MoGe-2,VGGT,Depth Anything 3
+Metric monocular geometry,High,Medium,Medium
+Any-view pose accuracy,Low,High,High
+Tracking / feature transfer,Low,High,Medium
+3DGS / NVS adapters,Low,High,High
+Inference simplicity,High,Medium,High

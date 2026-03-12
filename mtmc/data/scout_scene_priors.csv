@@ -1,0 +1,5 @@
+metric,without_scene_prior,with_scene_prior
+Single-view MOTA,69.8,73.6
+Multi-view MOTA,24.1,25.0
+Single-view IDF1,62.1,63.3
+Multi-view IDF1,26.9,27.0

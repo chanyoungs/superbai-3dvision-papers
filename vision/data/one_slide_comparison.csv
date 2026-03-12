@@ -1,0 +1,4 @@
+Paper,Input,Representation,Data,Best at,Caution
+MoGe-2,1 image,Affine-invariant point map + separate global metric scale,Synthetic data + refined real-world depth / geometry labels,Single-image metric geometry with sharp details,Not designed for many-view reconstruction or tracking
+VGGT,1 to 100+ images,"Shared backbone predicting cameras, depth, point maps, and track features",Large mixed 3D-annotated datasets,Shared 3D backbone and multi-output reuse,Dedicated point-map head can be weaker than depth + camera derived geometry
+Depth Anything 3,"1 to N images, posed or unposed",Depth + ray maps (+ optional camera prediction),Public academic data with teacher-student pseudo labels,Any-view pose and reconstruction,Training recipe is heavier; dynamics / non-rigid scenes remain hard

@@ -1,0 +1,5 @@
+Use case,Default recipe,Why
+Single-image metric perception,MoGe-2-style metric head on shared backbone,Best metric/detail trade-off in this review
+Sparse unposed multi-view reconstruction,DA3 depth + ray (+ optional camera head),Strongest pose-free geometry and better view scalability among the reviewed papers
+Track-heavy world model / video understanding,VGGT-style shared track and camera head,Best transfer story for reusable 3D features
+Edge or real-time deployment,Distilled small/base variants,Both DA3 and MoGe-2 motivate lighter models without changing the overall recipe

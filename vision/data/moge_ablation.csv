@@ -1,0 +1,4 @@
+Finding,Before,After
+Metric depth average rank,3.83 (Depth Pro),1.95 (MoGe-2)
+Boundary sharpness average rank,1.50 (Depth Pro),1.75 (MoGe-2)
+Refined real data F1,10.3 (raw real data),12.5 (refined real data)

@@ -1,0 +1,4 @@
+phase,objective,components,trigger
+Phase 1,Strong online baseline,Per-view detector + world projection + ReST/UMPN-style online graph,Any calibrated deployment; build evaluation tooling first
+Phase 2,Learned association,Cue bank + CAMEL/MOTIP-style learned matcher,Static weights become the bottleneck or re-entries dominate
+Phase 3,BEV / 3D branch,MCBLT-style early BEV proposals + hierarchical GNN + global block,"Dense overlap, long occlusions, and enough compute"

@@ -1,0 +1,6 @@
+setting,hota,assa,deta,method
+480,51.87,31.26,86.12,Heuristics [5]
+960,62.5,45.25,86.36,Heuristics [5]
+1920,71.88,59.78,86.47,Heuristics [5]
+3840,76.8,68.22,86.49,Heuristics [5]
+Global,81.22,76.19,86.94,Model (Ours)
