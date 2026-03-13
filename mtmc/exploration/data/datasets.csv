@@ -1,0 +1,7 @@
+dataset,year,domain,cameras,approx_frames_k,modalities,notes,url
+WILDTRACK,2018,pedestrians / outdoor,7.0,0.4,RGB,"Highly calibrated, overlapping, 2 FPS, ~56K view boxes over 400 annotated frames",https://www.epfl.ch/labs/cvlab/data/data-wildtrack/
+CityFlow,2019,vehicles / city-scale,40.0,,RGB,">3 hours, 40 cameras, 10 intersections, >200K boxes; geometry provided",https://arxiv.org/abs/1903.09254
+MMPTrack,2021,people / indoor,,,RGB(+RGBD labeling),"Five environments: industry, retail, cafe, lobby, office; dense labels",https://arxiv.org/abs/2111.15157
+M3Track,2025,people / UAV / all-day,2.0,236.0,RGB+Thermal,"19 scenes, 118Kx2 frames, 1.188M boxes, low-light and moving cameras",https://openaccess.thecvf.com/content/CVPR2025/html/Fan_All-Day_Multi-Camera_Multi-Target_Tracking_CVPR_2025_paper.html
+VisionTrack,2025,pedestrians,,,RGB,Introduced with GMT; positioned as higher-diversity MCMT dataset,https://arxiv.org/abs/2407.01007
+AI City 2025 Track 1,2025,people + robots / synthetic indoor 3D,504.0,,RGB + GT depth in challenge package,"42 hours, 504 cameras, 19 indoor layouts, >360 object instances",https://arxiv.org/html/2508.13564v1

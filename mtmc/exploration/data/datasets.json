@@ -1,0 +1,62 @@
+[
+  {
+    "dataset":"WILDTRACK",
+    "year":2018,
+    "domain":"pedestrians \/ outdoor",
+    "cameras":7.0,
+    "approx_frames_k":0.4,
+    "modalities":"RGB",
+    "notes":"Highly calibrated, overlapping, 2 FPS, ~56K view boxes over 400 annotated frames",
+    "url":"https:\/\/www.epfl.ch\/labs\/cvlab\/data\/data-wildtrack\/"
+  },
+  {
+    "dataset":"CityFlow",
+    "year":2019,
+    "domain":"vehicles \/ city-scale",
+    "cameras":40.0,
+    "approx_frames_k":null,
+    "modalities":"RGB",
+    "notes":">3 hours, 40 cameras, 10 intersections, >200K boxes; geometry provided",
+    "url":"https:\/\/arxiv.org\/abs\/1903.09254"
+  },
+  {
+    "dataset":"MMPTrack",
+    "year":2021,
+    "domain":"people \/ indoor",
+    "cameras":null,
+    "approx_frames_k":null,
+    "modalities":"RGB(+RGBD labeling)",
+    "notes":"Five environments: industry, retail, cafe, lobby, office; dense labels",
+    "url":"https:\/\/arxiv.org\/abs\/2111.15157"
+  },
+  {
+    "dataset":"M3Track",
+    "year":2025,
+    "domain":"people \/ UAV \/ all-day",
+    "cameras":2.0,
+    "approx_frames_k":236.0,
+    "modalities":"RGB+Thermal",
+    "notes":"19 scenes, 118Kx2 frames, 1.188M boxes, low-light and moving cameras",
+    "url":"https:\/\/openaccess.thecvf.com\/content\/CVPR2025\/html\/Fan_All-Day_Multi-Camera_Multi-Target_Tracking_CVPR_2025_paper.html"
+  },
+  {
+    "dataset":"VisionTrack",
+    "year":2025,
+    "domain":"pedestrians",
+    "cameras":null,
+    "approx_frames_k":null,
+    "modalities":"RGB",
+    "notes":"Introduced with GMT; positioned as higher-diversity MCMT dataset",
+    "url":"https:\/\/arxiv.org\/abs\/2407.01007"
+  },
+  {
+    "dataset":"AI City 2025 Track 1",
+    "year":2025,
+    "domain":"people + robots \/ synthetic indoor 3D",
+    "cameras":504.0,
+    "approx_frames_k":null,
+    "modalities":"RGB + GT depth in challenge package",
+    "notes":"42 hours, 504 cameras, 19 indoor layouts, >360 object instances",
+    "url":"https:\/\/arxiv.org\/html\/2508.13564v1"
+  }
+]
